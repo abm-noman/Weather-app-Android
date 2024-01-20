@@ -130,7 +130,6 @@
                             android:layout_width="34dp"
                             android:layout_height="34dp"
                             android:layout_gravity="center"
-                            app:srcCompat="@drawable/rain"
                             tools:srcCompat="@drawable/wind" />
 
                         <TextView
