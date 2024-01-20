@@ -97,7 +97,7 @@
                             android:layout_width="34dp"
                             android:layout_height="34dp"
                             android:layout_gravity="center"
-                            android:src="@tools:sample/avatars"
+<!--                            android:src="@tools:sample/avatars"-->
                             app:srcCompat="@drawable/rain" />
 
                         <TextView
@@ -131,7 +131,7 @@
                             android:layout_width="34dp"
                             android:layout_height="34dp"
                             android:layout_gravity="center"
-                            android:src="@tools:sample/avatars"
+<!--                            android:src="@tools:sample/avatars"-->
                             app:srcCompat="@drawable/rain"
                             tools:srcCompat="@drawable/wind" />
 
@@ -166,7 +166,7 @@
                             android:layout_width="34dp"
                             android:layout_height="34dp"
                             android:layout_gravity="center"
-                            android:src="@tools:sample/avatars"
+<!--                            android:src="@tools:sample/avatars"-->
                             app:srcCompat="@drawable/humidity" />
 
                         <TextView
@@ -194,7 +194,7 @@
                     android:id="@+id/imageView3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@tools:sample/avatars"
+<!--                    android:src="@tools:sample/avatars"-->
                     app:layout_constraintEnd_toEndOf="parent"
                     app:srcCompat="@drawable/small_white_circle" />
 
@@ -229,11 +229,12 @@
             </LinearLayout>
 
             <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/view1"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:clipToPadding="false"
                 android:paddingStart="24dp"
-                android:paddingEnd="24dp"/>
+                android:paddingEnd="24dp" />
 
         </LinearLayout>
     </ScrollView>
